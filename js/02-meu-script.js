@@ -1,13 +1,13 @@
 // Habilitando o modo estrito
 'use strict';
 
-teste = "Senac";
+let teste = "Senac";
 console.log(teste);
 
-let interface = "Etc e tal";
-console.log(interface)
+let userInterface = "Etc e tal";
+console.log(userInterface);
 
-let interface = "Teste";    
+let interface = "teste";    
 
 /* Exercícios */
 

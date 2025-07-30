@@ -1,3 +1,14 @@
+// Habilitando o modo estrito
+'use strict';
+
+teste = "Senac";
+console.log(teste);
+
+let interface = "Etc e tal";
+console.log(interface)
+
+let interface = "Teste";    
+
 /* Exercícios */
 
 // 1) Crie uma variável chamada "uc" e coloque nela o número da UC que estamos

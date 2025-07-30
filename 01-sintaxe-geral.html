@@ -8,7 +8,7 @@
 <body>
     <h1>Começando com JavaScript</h1>
     <hr>
-
+    
     <script>
     /* comentário de várias linhas (SHIFT ALTA A) */
     // comentário de uma linha (CTRL ;)
@@ -42,7 +42,6 @@
 
     /* Exercícios */
     
-    
     // 1) Crie duas variáveis cada uma contendo um valor numérico (qualquer valor)
 
     // 2) Crie uma variável chamada "soma" que receba a soma das duas variáveis criadas no exercício 1
@@ -54,8 +53,6 @@
     // 5) Crie uma variável chamada "divisao" que receba a divisao das duas variáveis criadas no exercício 1
 
     // 6) Mostre cada resultado no console
-
-      
 
     let valor1, valor2, soma, subtracao, multiplicacao, divisao;
     
@@ -86,14 +83,13 @@
     
     console.log(media);
 
-
     /* Saída de dados personalizada 
     Frases para exemplo:
     Olá! Me chamo Chapa-Coco e não vejo a hora de acabar o ano de 2025.
     */
 
     // Forma 1: CONCATENAÇÃO (tradicional, antiga)
-     console.log("Olá! Me chamo "+aluno+" e não vejo a hora de acabar o ano de 2025.");
+     console.log("Olá! Me chamo "+aluno+" e não vejo a hora de acabar o ano de " + ano +".");
 
     let frase = "Estamos estudando JavaScript na escola Senac ";
     frase += "Penha, no curso de Desenvolvedor Full-stack ";
@@ -101,11 +97,17 @@
 
     console.log(frase);
 
-
     // Forma 2: TEMPLATE LITERAL/STRING (moderna)
+    console.log(`Ola! Me chamo ${aluno} e não vejo a hora de acabar o ano de ${ano}`)
 
-   
+    // As duas formas abaixo estão corretas!
+    console.log("Soma: "+soma); // com aspas
+    console.log(`Soma: ${soma}`); // com crase e ${}
 
+    console.log(typeof soma);
+    console.log(typeof aluno);
+    
+    
 
     </script>
 </body>

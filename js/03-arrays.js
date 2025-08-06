@@ -11,3 +11,10 @@ console.log(guitarristas);
 
 // O Kirk está em turnê tocando Metallica
 console.log(`O ${guitarristas[1]} está em turnê tocando Metallica`);
+
+// Relembrando como criar/usar arrays (vetor)
+// No JS, vc pode colocar qualquer coisa em um array
+let seiLa = 6;
+const coisas = [10, "Senac", "<h2>Oie</h2>"];
+console.log(coisas[1]);
+console.log(coisas[4]);

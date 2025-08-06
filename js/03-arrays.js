@@ -30,3 +30,16 @@ console.log(bandas);
 
 console.log(`As bandas ${bandas[1]}, ${bandas[4]} e a ${bandas[6]} estão em turnê juntas`);
 
+/* Array como MATRIZ DE 2 DIMENSÕES */
+
+const tecnologias = [
+    ["HTML", "CSS", "JAVASCRIPT",],
+    ["Figma", "Photoshop"],
+    ["PHP", "SQL", "Node.js", "Express"]
+];
+
+// console.log(tecnologias);
+console.log(tecnologias[0][2]);//  JAVASCRIPT
+console.log(tecnologias[1][0]); // Figma
+console.log(tecnologias [2][3]); // Express
+

@@ -18,3 +18,15 @@ let seiLa = 6;
 const coisas = [10, "Senac", "<h2>Oie</h2>"];
 console.log(coisas[1]);
 console.log(coisas[4]);
+
+/* Exercícios (FAÇA AQUI MESMO!) */
+
+// 1) Crie um array contendo o nome de 7 coisas que vc gosta (exemplos: artistas, músicas, livros, comida...seil á, inventa!)
+
+let bandas = ["Death" ,"Metallica", "Megadeth", "Slayer", "Limp Bizkit", "Korn", "Pantera"];
+console.log(bandas);
+
+// 2) Em seguida, mostre no console uma frase personalizada indicando o segundo, o quinto e o sétimo elemento do array. Use concatenação e/ou template string
+
+console.log(`As bandas ${bandas[1]}, ${bandas[4]} e a ${bandas[6]} estão em turnê juntas`);
+

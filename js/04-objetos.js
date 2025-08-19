@@ -65,8 +65,8 @@ console.log(livros);
 
 - Nome Completo
 - Data de Nascimento
-- (Use ARRAY) Lista de telefones (fixo e celular)
-- (DESAFIO: use um OBJETO nesta propriedade) Endereço contendo (separadamente):
+- (Use ARRAY = []) Lista de telefones (fixo e celular)
+- (DESAFIO: use um OBJETO = {} nesta propriedade) Endereço contendo (separadamente):
   - rua
   - número
   - bairro
@@ -88,4 +88,4 @@ const aluno = {
 };
 
 console.log(aluno);
-console.log(`Meu nome é ${aluno.nome}, nasci em ${aluno.nascimento} e moro no bairro ${aluno.endereço.bairro}`);
+console.log(`Meu nome é ${aluno.nome}, nasci em ${aluno.nascimento} e moro no bairro ${aluno.endereço.bairro}.`);
